@@ -1,0 +1,16 @@
+:root {
+    --corfundo: rgb(31, 0, 0);
+    --vermelhores:#400101; 
+    --vermelhoes2: #730202;
+    --bege: #F2958D;
+} 
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    height: 100vh;
+    background-image: linear-gradient(black, var(--corfundo));
+}
