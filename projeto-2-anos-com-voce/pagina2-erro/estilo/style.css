@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+:root{
+    --cor1: #820a32;
+    --cor2: #ee6983;
+    --cor3: #ffc4c4;
+    --cor4: #fcedd3;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--cor1);
+}
+section.s01{
+    background-color: var(--cor4);
+    height: 100vh ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s01 img{
+    width: 380px;
+}
+.s01 h3 strong{
+    color: var(--cor1);
+}
+.s02{
+    background-color: var(--cor1);
+    padding: 20px;
+    height: 100vh;
+}
+.s02 img{
+    width: 450px;
+    transform: translate(30%, 10%);
+}
+.img{
+    background: url(../img/pers01.png) center;
+    background-size: cover;
+    height: 500px;
+    width: 300px;
+    transform: translate(50%, 10%);
+}
+.balao1{
+    background-color: white;
+    width: 250px;
+    padding: 10px;
+    border-radius: 20px 20px 0px 20px ;
+    
+    transform: translate(10%, 150%);
+
+}
+.balao2{
+    background-color: white;
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px 0px 20px 20px;
+    
+    transform: translate(20%, 200%);
+}
+button{
+    background-color: var(--cor3);
+    border: 1px solid var(--cor1);
+    padding: 10px;
+    border-radius: 8px;
+    transform: translate(50px, 600px);
+}
+button:hover{
+    background-color: var(--cor1);
+    color: var(--cor3);
+    border: 1px solid var(--cor2);
+
+}
