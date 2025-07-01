@@ -52,3 +52,57 @@ button:hover{
 strong{
     color: var(--cor2);
 }
+
+/* Style dos componentes criados pelo js*/
+.erro{
+    background-color: var(--cor4);
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    padding: 10px;
+    color: black;
+}
+
+.cont02{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+.cont{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    background: url(../imagens/icon-erro.png) center center;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+}
+.titu{
+    color: black;
+    font-size: 1.5em;
+}
+.text{
+    font-size: 0.9em;
+}
+.but{
+    background-color: var(--cor3);
+    border: 1px solid var(--cor1);
+    padding: 10px;
+    border-radius: 8px;
+    width: 200px;
+    margin: auto;
+}
+.but:hover{
+    background-color: var(--cor1);
+    color: var(--cor3);
+    border: 1px solid var(--cor2);
+  
+}
