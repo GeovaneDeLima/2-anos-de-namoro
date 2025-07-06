@@ -1,6 +1,6 @@
-const perguntas = [
+export const perguntas = [
     {
-        enuncuiado: "Qual a data do nosso primeiro beijo?",
+        enunciado: 'Qual a data do nosso primeiro beijo?',
         alternativas: ['25/12/2023', '12/06/2023', '08/06/2023', '05/05/2023', '30/04/2023'],
         correta: 2
     },
@@ -46,6 +46,22 @@ const perguntas = [
         ],
         correta: 4 
     },
+
+    {
+        enunciado: "Quando iamos comer algo na lanchonete, era de lei eu pedir uma comida específica. Qual era essa comida?",
+        alternativas: [
+            'Salsicha empanada',
+            'Coxa de frango com aipin',
+            'Cochinha',
+            'Pastel de quijo e presunto',
+            'Pizza'
+        ],
+        correta: 1
+    },
+
+    {
+
+    }
 
 ]
 
