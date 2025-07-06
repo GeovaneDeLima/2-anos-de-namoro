@@ -58,6 +58,8 @@ input {
     padding: 5px;
     margin-bottom: 10px;
     width: 200px;
+    border-radius: 5px;
+    color: white;
 }
 p{
     width: 300px;
@@ -73,4 +75,32 @@ p{
 }
 #login h4 {
     margin: 10px;
+}
+.click {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+.pup{
+    position: fixed;
+    max-width: 300px;
+    max-height: 400px;
+    background-color: var(--cor4);
+    
+    border-radius: 20px;
+    padding: 20px;
+    color: black;
+}
+.text{
+    padding: 20px;
+}
+.text h4{
+    margin: -10;
+}
+.text p{
+    width: 230px;
+}
+#msgerro{
+    font-size: 0.8em;
+    width: 190px;
 }
