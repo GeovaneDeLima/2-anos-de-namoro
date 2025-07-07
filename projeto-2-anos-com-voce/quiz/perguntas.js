@@ -50,7 +50,7 @@ export const perguntas = [
     {
         enunciado: "Quando iamos comer algo na lanchonete, era de lei eu pedir uma comida específica. Qual era essa comida?",
         alternativas: [
-            'Salsicha empanada',
+            'Enroladinho de salsicha ',
             'Coxa de frango com aipin',
             'Cochinha',
             'Pastel de quijo e presunto',
@@ -60,7 +60,43 @@ export const perguntas = [
     },
 
     {
+        enunciado: 'Qual comida eu sempre digo que se parece contigo quando tu ta deitada toda embrulhada em uma ligação comigo?',
+        alternativas: [
+            'Pizza',
+            'Cuzcuz',
+            'Frango',
+            'Pudim',
+            'Muci de maracujá'
+        ],
+        correta: 3
+    },
 
+    {
+        enunciado: 'Desde cedo, descidimos quis seriam os nomes dos nossos filhos. Qual seria o nome das nossas filhas caso nascer 2 meninas',
+        alternativas: [
+            'Rafaela, Allana',
+            'Allana, Gabriela',
+            'Allana, Geovana junia',
+            'Allana, Jucelia',
+            'Allana, Yorhana'
+        ],
+        correta: 4
+    },
+
+    {
+        enunciado: 'Quando você me perggunta qual presente eu quero ganhar, eu sempre respondo uma coisa. O que eu respondo?',
+        alternativas: [
+            'Uma camisa do Corinthians preta e branca',
+            'Um munitor novo para o meu setup',
+            'Um abraço e um beijo é mais que o suficiente',
+            'Uma Bross 160 2025',
+            'Um pote de whey'
+        ],
+        correta: 3
+    },
+
+    {
+        enunciado: ''
     }
 
 ]
