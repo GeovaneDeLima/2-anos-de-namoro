@@ -47,3 +47,39 @@ aside{
     border-radius: 15px;
 
 }
+.fundo{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.608);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    width: 300px;
+    background-color: var(--cor3);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    border: 2px solid var(--cor1);
+}
+.content h3{
+    font-size: 1.5em;
+}
+.content div {
+    margin-bottom: 10px;
+}
+button:hover{
+    background-color: var(--cor3);
+    border: 1px solid var(--cor1);
+    color: var(--cor1);
+}
+button{
+    background-color: var(--cor1);
+    color: var(--cor3);
+    border: 1px solid var(--cor2);
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+}

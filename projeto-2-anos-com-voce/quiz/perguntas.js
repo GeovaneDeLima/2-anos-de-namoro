@@ -95,9 +95,7 @@ export const perguntas = [
         correta: 3
     },
 
-    {
-        enunciado: ''
-    }
+    
 
 ]
 
