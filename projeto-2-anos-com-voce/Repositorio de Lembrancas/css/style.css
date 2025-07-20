@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+:root{
+    --cor1: #820a32;
+    --cor2: #ee6983;
+    --cor3: #ffc4c4;
+    --cor4: #fcedd3;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: var(--cor2);
+}
+
+nav div{
+    background-color: var(--cor3);
+    border: 1px solid var(--cor1);
+    color: var(--cor1);
+    padding: 3px 8px;
+    border-radius: 6px;
+}
+header{
+    height: 100vh;
+    background: url("../imagens/imgsAssistentes/imagemdefundo.png") center center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header h1{
+    margin-bottom: 30px;
+}
+main{
+    background-color: var(--cor1);
+    padding: 20px;
+    color: white;
+}
+main article{
+    width: 320px;
+    height: 220px;
+    background-color: #fcedd3;
+    border-radius: 10px;
+    background: url("../imagens/melhoresMomentos/IMG-20250622-WA0034.jpg") center center ;
+    background-size: cover;
+    scroll-snap-align: center;
+
+}
+.content {
+    max-width: 500px;
+    min-width: 200px;
+    margin: 20px 0px;
+}
+.carrossel{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 5px;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+}
+
+article{
+    background-color: var(--cor4);
+    padding: 20px;
+
+}
+.linha-conteiner{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+article h1{
+    text-align: center;
+    margin: 15px;
+}
+
+article .img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #820a32;
+}
+.linha-conteiner .text {
+    width: 50%;
+}
