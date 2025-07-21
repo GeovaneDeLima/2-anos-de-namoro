@@ -98,3 +98,27 @@ article .img{
 .linha-conteiner .text {
     width: 50%;
 }
+section{
+    height: 90vh;
+    padding: 20px;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor1);
+    color: white;
+}
+
+section div{
+    background-color: aqua;
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: var(--cor1);
+    color: white;
+    text-align: center;
+}
