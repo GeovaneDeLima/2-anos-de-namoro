@@ -90,11 +90,25 @@ article h1{
 }
 
 article .img{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     background-color: #820a32;
 }
+
+article #img01{
+    background: url(../imagens/linhaDoTempo/IMG_20230728_111017_855.webp) center center;
+    background-size: cover;
+    border: 2px solid var(--cor1);
+}
+
+article #img02{
+    background: url(../imagens/linhaDoTempo/IMG_20241026_155459_611.jpg) left center;
+    background-size: cover;
+    border: 2px solid var(--cor1);
+
+}
+
 .linha-conteiner .text {
     width: 50%;
 }
@@ -116,7 +130,12 @@ section div{
     margin: auto;
     margin-top: 20px;
 }
-
+section .img{
+    background: url(../imagens/melhoresMomentos/IMG-20250622-WA0034.jpg) center center;
+    background-size: cover;
+    border-radius: 10px;
+    border: 2px solid;
+}
 footer {
     background-color: var(--cor1);
     color: white;
