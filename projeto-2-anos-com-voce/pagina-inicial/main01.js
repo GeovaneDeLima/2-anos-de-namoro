@@ -31,7 +31,7 @@ document.getElementsByTagName('button')[1].addEventListener('click', () => {
     textpup.innerHTML = `<h2>Usuário Não identificado</h2> <br>
     <h4>Você não sabe qual é a senha né?
     </h4> <br>
-    <p>Bom enfim. Para ter certeza de que você é você e para que o "toco de gente de Geovane" veja seu presente, aperte no botão abaixo para fazer um pequeno teste.</p> <br>
+    <p>Bom enfim. Não posso te deixar passar sem saber que você é Andressa mesmo. A Andressa verdadeira saberia a senha 🤷‍♀️. Por isso preciso que você responda algumas perguntas. Aperte no botão abaixo para começar</p> <br>
     `
 
     butpup.textContent = 'Fazer Teste'

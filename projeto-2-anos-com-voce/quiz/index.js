@@ -75,7 +75,7 @@ function mostrarResultado(){
 
         text.innerHTML = `<h3> Você acertou ${Pontuacao} de ${perguntas.length} perguntas. </h3> <br>
         <h4>Hum agora sei que você é realmente você mesmo.</h4> <br>
-        Por favor meu bem, fique a vontade para ver nosso <strong> "Repositório de lembrnaças"</strong>, feito por mim (Geovane), com muito amor, carinho e MUITA PACIÊNCIA.`
+        Por favor, meu bem fique a vontade para ver nosso <strong> "Repositório de Lembranças"</strong>, feito por mim (Geovane), com muito amor, carinho e MUITA PACIÊNCIA.`
 
         butPresente.addEventListener('click', () =>{
             window.location.href = "../Repositorio de Lembrancas/index.html"

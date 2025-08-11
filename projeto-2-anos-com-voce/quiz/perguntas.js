@@ -72,7 +72,7 @@ export const perguntas = [
     },
 
     {
-        enunciado: 'Desde cedo, descidimos quis seriam os nomes dos nossos filhos. Qual seria o nome das nossas filhas caso nascer 2 meninas',
+        enunciado: 'Desde cedo, descidimos quais seriam os nomes dos nossos filhos. Qual seria o nome das nossas filhas caso nascer 2 meninas',
         alternativas: [
             'Rafaela, Allana',
             'Allana, Gabriela',
@@ -84,7 +84,7 @@ export const perguntas = [
     },
 
     {
-        enunciado: 'Quando você me perggunta qual presente eu quero ganhar, eu sempre respondo uma coisa. O que eu respondo?',
+        enunciado: 'Quando você me pergunta qual presente eu quero ganhar, eu sempre respondo uma coisa. O que eu respondo?',
         alternativas: [
             'Uma camisa do Corinthians preta e branca',
             'Um munitor novo para o meu setup',
