@@ -12,10 +12,11 @@
 }
 body{
     height: 100vh;
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
     background-color: var(--cor1);
+    padding: 20px;
 }
 #number{
     background-color: var(--cor4);

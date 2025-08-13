@@ -95,6 +95,18 @@ export const perguntas = [
         correta: 3
     },
 
+    {
+        enunciado: 'Você me xinga de uma coisa quando eu te pirraço, e por alguma razão eu amo escutar. Qual é esse xingamento e pq eu gosto tanto',
+        alternativas: [
+            'Bestão. Eu gosto porque nós dois somos bestas.',
+            'Nojento. Eu gosto porque acho a palavra bonita.',
+            'Viado. Eu gosto porque sou meio afeminado.',
+            'Nojento. Eu gosto porque acho fofo a cara e o jeito que tu fala.',
+            'Insuportável. Eu gosto porque amo ser insuportável contigo.'
+        ],
+        correta: 3 
+    },
+
     
 
 ]
