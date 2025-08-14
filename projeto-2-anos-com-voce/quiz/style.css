@@ -36,7 +36,7 @@ h1{
     margin: 10px;
     padding: 20px 14px;
     border-radius: 20px;
-    font-size: 2em;
+    font-size: 1.8em;
 }
 aside{
     background-color: var(--cor4);
@@ -44,7 +44,7 @@ aside{
     margin: auto;
     margin-bottom: 10px;
     padding: 17px;
-    font-size: 1.2em;
+    font-size: 1em;
     border-radius: 15px;
 
 }
